@@ -1,0 +1,132 @@
+
+* {
+font-family: "Roboto Condensed", sans-serif;
+}
+body {
+margin: 0;
+padding: 0;
+background-color: aquamarine;
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.container {
+width: 350px;
+padding: 20px;
+background-color:white;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.input-container {
+width: 100%;
+display: flex;
+align-items: center;
+border: 2px solid black;
+border-radius: 10px;
+overflow: hidden;
+}
+.cityInput {
+  flex: 1;
+  height: 30px;
+  border: none;
+  font-size: 16px;
+  outline: none;
+  padding: 10px;
+  }
+
+.search-icon{
+
+  padding: 10px;
+  height: 30px;
+  cursor: pointer;
+
+}
+.search-icon img {
+    
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;  
+}
+
+.image{
+
+  align-items:center;
+  height: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.image img{
+  width: 160px;
+  height: 160px;
+  
+}
+.location,
+.temp,
+.country{
+   margin-top: 5px;
+   font-size: 35px;
+   color:rgb(62, 62, 214) ;
+   text-align: center;
+   text-transform: uppercase;
+
+}
+.temp{
+
+  font-weight: 600;
+
+}
+.location{
+  color: rgb(214, 145, 55);
+  font-weight: 600;
+  font-size: 45px;
+}
+.card{
+   display: flex;
+   
+   
+   justify-content: space-around;
+   margin-top: 20px;
+   color: rgb(255, 0, 0);
+   
+
+
+}
+
+.long,
+.atti {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 600;
+ 
+  
+}
+
+.element{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  font-size: 20px;
+
+
+}
+.hum{
+  font-family:Arial, Helvetica, sans-serif;
+  color: rgb(4, 32, 32);
+  font-weight: 500;
+}
+.copy{
+  color: #888;
+  text-transform:uppercase ;
+  text-align: center;
+  margin-top: 30px;
+}
